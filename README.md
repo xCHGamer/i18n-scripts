@@ -8,7 +8,9 @@ Most of them will contain a table showing phrases on the left and their translat
 
 Use the English file as a reference to what you need to be translating.
 
-Some translations will have `\n` which means a newline. Please retain newlines when translating.
+Some translations will have `\n`, `%s` and `\"`. Please try to retain these when translating.
+
+I recommend that you use a syntax highlighter while editing to make sure you make no syntax mistakes.
 
 If you want to contribute to the translation of a language that doesn't have a file simply create the file.
 
