@@ -12,6 +12,6 @@ Some translations will have `\n` which means a newline. Please retain newlines w
 
 If you want to contribute to the translation of a language that doesn't have a file simply create the file.
 
-##A script of yours is missing?
+##Where is `x` script?
 
 At the moment I'm only accepting translations for specific scripts until I recode them or add internationalization capabilities to them.
