@@ -3,7 +3,8 @@
 	
 	Contributors:
 	
-	FearBomber - 76561198050514903
+	FearBomber - STEAM_0:1:45124587
+	Martin     - STEAM_0:0:40500793
 ]]
 
 bLogs.Language = {
