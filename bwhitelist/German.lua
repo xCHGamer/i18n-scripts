@@ -1,10 +1,12 @@
 --[[
+
 	BWhitelist German
 	
 	Contributors:
 	
 	FearBomber - STEAM_0:1:45124587
 	Martin     - STEAM_0:0:40500793
+	
 ]]
 
 bLogs.Language = {
