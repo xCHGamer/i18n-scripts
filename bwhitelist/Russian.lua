@@ -1,11 +1,11 @@
-	--[[
+-[[
 	
 	BWhitelist Russian
 	
 	Contributors:
 	WhippaSnappers STEAM_1:1:82756840
 
-	]]
+]]
 
 BWhitelist.Language = {
 	permission_failure = "Отказано в доступе.",
