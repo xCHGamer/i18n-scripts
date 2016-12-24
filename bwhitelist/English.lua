@@ -69,7 +69,6 @@
 	reset_everything = "Reset everything",
 	reset_everything_tooltip = "WARNING: This will delete ALL whitelist data and enabled whitelists.",
 	go = "Go",
-	notify_customcheck = "The job you tried to join has a customCheck which overrided BWhitelist and blocked you from joining it.",
 	customcheck_team = "This team has a customCheck on it. This overrides BWhitelist.\n\nPlease change \"customCheck\" to \"BWhitelist_customCheck\"\nin your jobs file for your customCheck to work with BWhitelist.",
 	removed_from_whitelist = "You were removed from the whitelist for \"%s\"",
 	added_to_whitelist = "You were added to the whitelist for \"%s\"",
@@ -77,4 +76,8 @@
 	enable_all_whitelists = "Enable all whitelists",
 	player_left = "The player has left.",
 	no_actions_available = "No actions available for this player.",
+	remove_from_all_whitelists = "Remove from all whitelists",
+	add_to_all_whitelists = "Add to all whitelists",
+	clear_unknown_jobs = "Clear Unknown Jobs",
+	clear_unknown_jobs_tooltip = "If there is whitelist data in the database related to a job that doesn't exist anymore, it will all be deleted with this button. The whitelist data of that job will be kept in case you need it in future.",
 }
