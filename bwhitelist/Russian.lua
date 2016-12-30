@@ -1,7 +1,7 @@
 --[[
-	
+
 	BWhitelist Russian
-	
+
 	Contributors:
 	WhippaSnappers STEAM_1:1:82756840
 
@@ -52,7 +52,7 @@ BWhitelist.Language = {
 	player_left = "Упс! Похоже, игрок покинул сервер.",
 	no_enabled_whitelists = "Не могу найти активных whitelist'ов, к которым  у вас есть доступ!",
 	import_from_mayoz = "Импорт из whitelist'а от Mayoz'а",
-	import_from_nordahl = "Импорт из whitelist'а от Nordahl'а"",
+	import_from_nordahl = "Импорт из whitelist'а от Nordahl'а",
 	import_from_old_bwhitelist = "Импорт из старого BWhitelist",
 	view = "Просмотреть",
 	no_import = "Похоже, мы не смогли найти Файлы/возможно, они повреждены.",
