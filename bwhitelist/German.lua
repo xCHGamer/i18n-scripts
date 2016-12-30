@@ -9,7 +9,7 @@
 	
 ]]
 
-bLogs.Language = {
+BWhitelist.Language = {
 	permission_failure = "Du hast momentan nicht die Befugnis um dies zu tun.",
 	disabled_whitelist = "Die Whitelist für diesen Job ist deaktiviert.",
 	no_whitelist_permission = "Du hast nicht die Berechtigung die Whitelist zu bearbeiten.",
