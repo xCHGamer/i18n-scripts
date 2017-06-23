@@ -14,6 +14,6 @@ I recommend that you use a syntax highlighter while editing to make sure you mak
 
 If you want to contribute to the translation of a language that doesn't have a file simply create the file.
 
-##Where is `x` script?
+## Where is `x` script?
 
 At the moment I'm only accepting translations for specific scripts until I recode them or add internationalization capabilities to them.
