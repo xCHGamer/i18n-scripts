@@ -10,9 +10,9 @@
 
 BWhitelist.Language = {
 	permission_failure = "Vous n'avez pas la permission de faire cela.",
-	disabled_whitelist = "La whitelist pour ce job est désactivée.",
+	disabled_whitelist = "La whitelist pour ce métier est désactivée.",
 	no_whitelist_permission = "Vous n'avez pas la permission d'éditer cette whitelist.",
-	search_jobs = "Chercher des jobs..",
+	search_jobs = "Chercher des métiers..",
 	steamid_finder = "Chercheur de SteamID",
 	type = "Type",
 	value = "Valeur",
