@@ -15,10 +15,10 @@ bLogs.Language = {
 	admin_mode = "Mode Administrateur",
 
 	-- The button to view all logs stored.
-	all_logs = "Tout les logs",
+	all_logs = "Tous les logs",
 
 	-- The button to view all players stored in bLogs.
-	all_players = "Tout les joueurs",
+	all_players = "Tous les joueurs",
 
 	-- The tab at the top to view players stored in bLogs.
 	players = "Joueurs",
@@ -34,7 +34,7 @@ bLogs.Language = {
 	search = "Recherche",
 
 	-- The button to open the SteamID Finder (steamid.venner.io)
-	steamid_finder = "SteamID Finder",
+	steamid_finder = "Chercher un SteamID",
 
 	-- The message in the players panel instructing the user to select something
 	-- to view players.
