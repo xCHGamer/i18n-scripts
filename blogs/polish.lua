@@ -1,121 +1,116 @@
-[[
+--[[
 
 	bLogs Polish
-
-	Contributors:
-
-	Anonymous
-
 ]]
 
 {
-	permission_failure = "You don't currently have permission to do this.",
+	permission_failure = "Nie posiadasz zezwolenia.",
 
 	-- When the user is an admin, this will be in the window title.
-	admin_mode = "Admin Mode",
+	admin_mode = "Tryb Admina",
 
 	-- The button to view all logs stored.
-	all_logs = "All Logs",
+	all_logs = "Wszystkie rejestry",
 
 	-- The button to view all players stored in bLogs.
-	all_players = "All Players",
+	all_players = "Wszyscy gracze",
 
 	-- The tab at the top to view players stored in bLogs.
-	players = "Players",
+	players = "Gracze",
 
 	-- The message shown to the player when they first open bLogs.
-	getting_data = "Getting data, please wait...",
+	getting_data = "Pobieranie danych, prosze czekac...",
 
 	-- The message shown when there's no logs to show.
-	no_data = "No data!",
+	no_data = "Brak danych!",
 
-	advanced_search = "Advanced Search",
-	quick_search = "Quick Search",
-	search = "Search",
+	advanced_search = "Wyszukiwanie Zaawansowane",
+	quick_search = "Szybkie Wyszukiwanie",
+	search = "Wyszukaj",
 
 	-- The button to open the SteamID Finder (steamid.venner.io)
-	steamid_finder = "SteamID Finder",
+	steamid_finder = "Wyszukiwarka SteamID",
 
 	-- The message in the players panel instructing the user to select something
 	-- to view players.
-	select_something = "Select something",
+	select_something = "Wybierz cokolwiek",
 
 	-- The button at the pagination that allows you to jump to a specific page.
-	jump = "Jump",
+	jump = "Przeskocz",
 
 	-- The title of the window that pops up when you click "Jump"
-	jump_to_page = "Jump to page...",
+	jump_to_page = "Przeskocz do strony...",
 
 	-- The text in that window instructing the user.
 	-- %d is the number of pages that exist
-	type_page = "Type a page number (there are %d pages)",
+	type_page = "Wpisz numer stronz (jest %d stron)",
 
-	cancel = "Cancel",
+	cancel = "Anuluj",
 
-	error_over_pagenum = "That page of logs doesn't exist",
-	error_not_num = "That wasn't a number",
+	error_over_pagenum = "Ta strona rejestrow nie istnieje",
+	error_not_num = "To nie jest numer",
 
-	error = "Error",
+	error = "Blad",
 
 	-- Left click to copy [player] name
-	involved_tooltip = "Right click for options",
+	involved_tooltip = "Kliknij prawym aby wyswietlic opcje",
 
 	-- View logs that that this player is involved in
-	view_player_logs = "View Player Logs",
+	view_player_logs = "Sprawdz Logi Gracza",
 
 	-- Copy [something] [to clipboard]
-	copy = "Copy %s",
+	copy = "Kopiuj %s",
 
-	profile = "Steam Profile",
+	profile = "Profil Steam",
 
-	left_click_to_copy = "Left click to copy",
+	left_click_to_copy = "Klikij lewym aby skopiowac",
 
-	modules = "Modules",
+	modules = "Moduly",
 
-	custom = "Custom",
+	custom = "Wlasne",
 
-	enter_a_steamid = "Enter a SteamID...",
+	enter_a_steamid = "Wprowadz SteamID...",
 
-	error_not_steamid = "That wasn't a SteamID.",
+	error_not_steamid = "To nie jest SteamID.",
 
 	-- Used in the advanced search box
 	-- "Does the log contain this text?"
-	contains = "And contains...",
+	contains = "I zawiera...",
 
 	-- "Colour Mode" is whether or not the logs are shown with coloured text.
-	colour_mode = "Colour Mode",
+	colour_mode = "Tryb Koloru",
 
-	jump_to_date = "Jump to Date",
+	jump_to_date = "Przeskocz do Daty",
 
-	jump_to_date_tooltip = "Right click to jump to a date/time",
+	jump_to_date_tooltip = "Kliknij prawym aby przeskoczyc do daty/czasu",
 
-	type_date = "Enter a date. It must be in this format: DD/MM/YYYY (%s/%s/%s)",
+	type_date = "Wpisz date. Wykorzystaj format: DD/MM/YYYY (%s/%s/%s)",
 
-	error_not_date = "That wasn't a valid date. It must be in this format: DD/MM/YYYY (%s/%s/%s)",
+	error_not_date = "To nie byla poprawna data. Wykorzystaj format: DD/MM/YYYY (%s/%s/%s)",
 
-	type_time = "Enter a timestamp. It must be in this format: HH:MM (%s:%s) (24 hour)\nLeave blank to ignore time.",
+	type_time = "Wprowadz stempel czasowy. Musi byc w tym formacie: HH:MM (%s:%s) (24 godziny)\nZostaw puste aby zignorowac.",
 
-	error_not_time = "That wasn't a valid timestamp. It must be in this format: HH:MM (%s:%s) (24 hour)",
+	error_not_time = "To nie byl prawidlowy stempel czasowy. Wykorzystaj format: HH:MM (%s:%s) (24 godziny)",
 
-	archive = "Archive",
+	archive = "Archiwum",
 
-	searching = "Searching",
+	searching = "Szukanie",
 
-	search_archive = "Search Archive",
+	search_archive = "Szukaj Archiwum",
 
-	search_archive_warning = "Searching the archive can lag the server on local databases. Only use if needed.",
+	search_archive_warning = "Przeszukiwanie archiwum moze spowolnic serwer. Wykorzystuj madrze.",
 
-	contribute = "Contribute",
+	contribute = "Wspomoz Prace",
 
-	logging = "Logging",
+	logging = "Rejestrowanie",
 
-	save = "Save",
+	save = "Zapisz",
 
-	enabled = "Enabled",
+	enabled = "Wlaczone",
 
-	disabled = "Disabled",
+	disabled = "Wylaczone",
 
-	disable = "Disable",
+	disable = "Wylacz",
 
-	enable = "Enable",
+	enable = "Wlacz",
 }
