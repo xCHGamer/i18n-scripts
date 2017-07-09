@@ -7,6 +7,7 @@
 ]]
 
 {
+	
 	permission_failure = "You don't currently have permission to do this.",
 
 	-- When the user is an admin, this will be in the window title.
@@ -103,8 +104,6 @@
 
 	search_archive_warning = "Searching the archive can lag the server on local databases. Only use if needed.",
 
-	contribute = "Contribute",
-
 	logging = "Logging",
 
 	save = "Save",
@@ -116,4 +115,18 @@
 	disable = "Disable",
 
 	enable = "Enable",
+
+	give = "Give",
+
+	take = "Take",
+
+	new_steamid = "New SteamID",
+
+	new_usergroup = "New Usergroup",
+
+	usergroup_name = "Usergroup Name",
+
+	-- "Delete this entry from permissions"
+	delete_entry = "Delete Entry",
+	
 }
