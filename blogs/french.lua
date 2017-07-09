@@ -9,6 +9,7 @@
 ]]
 
 bLogs.Language = {
+	
 	permission_failure = "Vous n'avez pas la permission d'exécuter cette action.",
 
 	-- When the user is an admin, this will be in the window title.
@@ -105,8 +106,6 @@ bLogs.Language = {
 
 	search_archive_warning = "Rechercher une archive peut ralentir le serveur sur une base de données locale. A utiliser que en cas de besoin réel.",
 
-	contribute = "Contribuer",
-
 	logging = "S'identifier",
 
 	save = "Enregistrer",
@@ -118,4 +117,5 @@ bLogs.Language = {
 	disable = "Désactiver",
 
 	enable = "Activer",
+	
 }
