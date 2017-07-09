@@ -4,7 +4,8 @@
 
 ]]
 
-{
+bLogs.Language = {
+	
 	permission_failure = "Nie posiadasz zezwolenia.",
 
 	-- When the user is an admin, this will be in the window title.
@@ -101,8 +102,6 @@
 
 	search_archive_warning = "Przeszukiwanie archiwum moze spowolnic serwer. Wykorzystuj madrze.",
 
-	contribute = "Wspomoz Prace",
-
 	logging = "Rejestrowanie",
 
 	save = "Zapisz",
@@ -114,4 +113,5 @@
 	disable = "Wylacz",
 
 	enable = "Wlacz",
+	
 }
