@@ -1,8 +1,11 @@
 
 --[[
-	bLogs English
-	Do not make changes to this file, it's used internally
-	and is not loaded from GitHub.
+
+	bLogs Spanish
+
+	Contributors:
+	elolloto
+
 ]]
 
 {
