@@ -4,7 +4,7 @@
 	bLogs Spanish
 
 	Contributors:
-	elolloto
+	A ghost behind u
 
 ]]
 
