@@ -1,10 +1,10 @@
-
 --[[
 
 	bLogs Spanish
 
 	Contributors:
-	A ghost behind u
+
+	A ghost behind u - STEAM_0:0:56269474
 
 ]]
 
