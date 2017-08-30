@@ -7,7 +7,10 @@
 ]]
 
 {
-	
+
+	-- First column in the logs, shows the date/time of the log
+	when = "When",
+
 	permission_failure = "You don't currently have permission to do this.",
 
 	-- When the user is an admin, this will be in the window title.
@@ -128,5 +131,24 @@
 
 	-- "Delete this entry from permissions"
 	delete_entry = "Delete Entry",
-	
+
+	usergroup_exists = "That usergroup already exists in the permissions! Is there a CAMI usergroup for that? Use that if so.",
+
+	steamid_exists = "That SteamID already exists in the permissions.",
+
+	loading = "Loading...",
+
+	support = "Support",
+
+	-- "Player Format" is a setting that contains everything that will be included
+	-- in a log that references a player. For example, it will show the player's job,
+	-- health, armour, etc. depending on the settings.
+	player_format = "Player Format",
+
+	permissions = "Permissions",
+
+	general_settings = "General Settings",
+
+	operations = "Operations",
+
 }
