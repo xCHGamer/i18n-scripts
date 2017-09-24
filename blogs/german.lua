@@ -47,10 +47,10 @@ bLogs.Language = {
 	select_something = "Wähle etwas aus",
 
 	-- The button at the pagination that allows you to jump to a specific page.
-	jump = "Springe",
+	jump = "Überspringe",
 
 	-- The title of the window that pops up when you click "Jump"
-	jump_to_page = "Springe zur Seite...",
+	jump_to_page = "Überspringe zur Seite...",
 
 	-- The text in that window instructing the user.
 	-- %d is the number of pages that exist
@@ -137,7 +137,7 @@ bLogs.Language = {
 	-- "Delete this entry from permissions"
 	delete_entry = "Eintrag löschen",
 
-	usergroup_exists = "That usergroup already exists in the permissions! Is there a CAMI usergroup for that? Use that if so.",
+	usergroup_exists = "Diese Usergroup existiert bereits in den Berechtigungen! Gibt es dafür eine CAMI-Usergroup? Benutze das wenn ja.",
 
 	steamid_exists = "Dieser SteamID existiert bereits in den Berechtigungen.",
 
