@@ -3,7 +3,8 @@
 	BWhitelist Russian
 
 	Contributors:
-	WhippaSnappers STEAM_1:1:82756840
+
+	WhippaSnappers - STEAM_1:1:82756840
 
 ]]
 
