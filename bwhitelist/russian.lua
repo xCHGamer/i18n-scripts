@@ -1,6 +1,6 @@
 --[[
 
-	BWhitelist Russian
+	bWhitelist Russian
 
 	Contributors:
 
@@ -8,7 +8,7 @@
 
 ]]
 
-BWhitelist.Language = {
+bWhitelist.Language = {
 	permission_failure = "Отказано в доступе.",
 	disabled_whitelist = "Для этой профессии whitelist отключен.",
 	no_whitelist_permission = "Нет прав для редактирования этого whitelist'а.",
@@ -54,12 +54,12 @@ BWhitelist.Language = {
 	no_enabled_whitelists = "Не могу найти активных whitelist'ов, к которым  у вас есть доступ!",
 	import_from_mayoz = "Импорт из whitelist'а от Mayoz'а",
 	import_from_nordahl = "Импорт из whitelist'а от Nordahl'а",
-	import_from_old_bwhitelist = "Импорт из старого BWhitelist",
+	import_from_old_bwhitelist = "Импорт из старого bWhitelist",
 	view = "Просмотреть",
 	no_import = "Похоже, мы не смогли найти Файлы/возможно, они повреждены.",
-	import_from_old_bwhitelist_tooltip = "Если мы найдем файлы от старого BWhitelist на сервере, то конвертируем их для новой версии.",
-	import_from_mayoz_tooltip = "Если мы найдем файлы whitelist'а от Mayoz'а, то конвертируем их для BWhitelist.",
-	import_from_nordahl_tooltip = "Если мы найдем файлы whitelist'а от Nordahl'а, то конвертируем их для BWhitelist.",
+	import_from_old_bwhitelist_tooltip = "Если мы найдем файлы от старого bWhitelist на сервере, то конвертируем их для новой версии.",
+	import_from_mayoz_tooltip = "Если мы найдем файлы whitelist'а от Mayoz'а, то конвертируем их для bWhitelist.",
+	import_from_nordahl_tooltip = "Если мы найдем файлы whitelist'а от Nordahl'а, то конвертируем их для bWhitelist.",
 	disable_all_whitelists = "Whitelist'ы всех профессий будут отключены. Все данные останутся.",
 	enable_all_whitelists = "Вайт листы всех профессий будут включены.",
 	steamprofile = "Steam профиль",
@@ -70,7 +70,7 @@ BWhitelist.Language = {
 	reset_everything = "Сбросить все",
 	reset_everything_tooltip = "ОПАНЬКИ: Это удалить все whitelist'ы и их настройки.",
 	go = "Вперед",
-	customcheck_team = "Эта тима имеет customCheck. Это блокирует работу BWhitelist.\n\nПожалуйста, измените \"customCheck\" на \"BWhitelist_customCheck\"\nв файле ваших профессий, чтобы customCheck работал с BWhitelist.",
+	customcheck_team = "Эта тима имеет customCheck. Это блокирует работу bWhitelist.\n\nПожалуйста, измените \"customCheck\" на \"bWhitelist_customCheck\"\nв файле ваших профессий, чтобы customCheck работал с bWhitelist.",
 	removed_from_whitelist = "Вы были удалены из whitelist'а \"%s\"",
 	added_to_whitelist = "Вы были добавлены в whitelist'а \"%s\"",
 	disable_all_whitelists = "Отключить все whitelist'ы",

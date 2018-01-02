@@ -1,6 +1,6 @@
 --[[
 
-	BWhitelist Polish
+	bWhitelist Polish
 	
 	Contributors:
 	
@@ -8,7 +8,7 @@
 	
 ]]
 
-BWhitelist.Language = {
+bWhitelist.Language = {
 	permission_failure = "Nie masz uprawnień żeby to zrobić!",
 	disabled_whitelist = "Whitelista do tej pracy jest wyłączona.",
 	no_whitelist_permission = "Nie masz uprawnień żeby edytować tą whitelistę.",
@@ -39,7 +39,7 @@ BWhitelist.Language = {
 	disable_whitelist_tooltip = "Wyłącz whitelistę. Gracze mogą wybrać dowolną pracę.",
 	add_to_whitelist_tooltip = "Dodaje SteamID, SteamID64 albo grupę do whitelisty dla tej pracy.",
 	remove_from_whitelist_tooltip = "Usuwa SteamID, SteamID64 albo grupę do whitelisty dla tej pracy.",
-	in_jobs_file_tooltip = "Nie możesz wyłączyć tej whitelisty, ponieważ BWhitelist jest włączony w plikach prac DarkRP.",
+	in_jobs_file_tooltip = "Nie możesz wyłączyć tej whitelisty, ponieważ bWhitelist jest włączony w plikach prac DarkRP.",
 	add_steamid = "Dodaj SteamID/64",
 	add_usergroup = "Dodaj Grupę",
 	add_usergroup_modal = "Wpisz grupę, którą chcesz dodać.",
@@ -54,12 +54,12 @@ BWhitelist.Language = {
 	no_enabled_whitelists = "Nie ma włączonej whitelisty do której masz dostęp!",
 	import_from_mayoz = "Importuj z Mayoz's Whitelisting System",
 	import_from_nordahl = "Importuj z Nordahl's Whitelisting System",
-	import_from_old_bwhitelist = "Importuj z starej wersji BWhitelist",
+	import_from_old_bwhitelist = "Importuj z starej wersji bWhitelist",
 	view = "Zobacz",
 	no_import = "Nie znaleziono pliku/plików wymaganych do importu.",
-	import_from_old_bwhitelist_tooltip = "Jeśli znajdziemy pliki z starej wersji BWhitelist, przekonwertujemy je na nowe.",
-	import_from_mayoz_tooltip = "Jeśli znajdziemy pliki z Mayoz's Whitelisting System's, przekonwertujemy je na BWhitelist.",
-	import_from_nordahl_tooltip = "Jeśli znajdziemy pliki z Nordahl's Whitelisting System's files on your server, przekonwertujemy je na BWhitelist.",
+	import_from_old_bwhitelist_tooltip = "Jeśli znajdziemy pliki z starej wersji bWhitelist, przekonwertujemy je na nowe.",
+	import_from_mayoz_tooltip = "Jeśli znajdziemy pliki z Mayoz's Whitelisting System's, przekonwertujemy je na bWhitelist.",
+	import_from_nordahl_tooltip = "Jeśli znajdziemy pliki z Nordahl's Whitelisting System's files on your server, przekonwertujemy je na bWhitelist.",
 	disable_all_whitelists = "Wszystkie prace mają wyłączoną whitelistę. Wszystkie dane zostaną na dysku.",
 	enable_all_whitelists = "Wszystkie prace mają włączoną whitelistę.",
 	steamprofile = "Profil Steam",
@@ -70,7 +70,7 @@ BWhitelist.Language = {
 	reset_everything = "Resetuj wszystko",
 	reset_everything_tooltip = "UWAGA: Zostaną usunięte wszystkie dane i whitelisty!",
 	go = "Kontynuuj",
-	customcheck_team = "Ta praca ma włączony customCheck. Powoduje to nadpisanie BWhitelist.\n\nProszę zmienić \"customCheck\" na \"BWhitelist_customCheck\"\nw plikach prac żeby customCheck działał z BWhitelist.",
+	customcheck_team = "Ta praca ma włączony customCheck. Powoduje to nadpisanie bWhitelist.\n\nProszę zmienić \"customCheck\" na \"bWhitelist_customCheck\"\nw plikach prac żeby customCheck działał z bWhitelist.",
 	removed_from_whitelist = "Zostałeś usunięty z whitelisty przez \"%s\"",
 	added_to_whitelist = "Zostałeś dodany do whitelisty przez \"%s\"",
 	disable_all_whitelists = "Wyłącz wszystkie whitelisty",

@@ -1,6 +1,6 @@
 --[[
 
-	BWhitelist French
+	bWhitelist French
 
 	Contributors:
 
@@ -9,7 +9,7 @@
 
 ]]
 
-BWhitelist.Language = {
+bWhitelist.Language = {
 	permission_failure = "Vous n'avez pas la permission de faire cela.",
 	disabled_whitelist = "La whitelist pour ce métier est désactivée.",
 	no_whitelist_permission = "Vous n'avez pas la permission d'éditer cette whitelist.",
@@ -40,7 +40,7 @@ BWhitelist.Language = {
 	disable_whitelist_tooltip = "Désactiver la whitelist. Les joueurs pourront avoir ce métier sans restriction.",
 	add_to_whitelist_tooltip = "Ajouter un SteamID, SteamID64 ou groupe d'utilisateur à la whitelist pour ce métier.",
 	remove_from_whitelist_tooltip = "Enlever le SteamID, SteamID64 ou groupe d'utilisateur de la whitelist pour ce métier.",
-	in_jobs_file_tooltip = "Vous ne pouvez pas désactiver cette whitelist car BWhitelist est activé dans votre fichier de métiers.",
+	in_jobs_file_tooltip = "Vous ne pouvez pas désactiver cette whitelist car bWhitelist est activé dans votre fichier de métiers.",
 	add_steamid = "Ajouter un SteamID/64",
 	add_usergroup = "Ajouter un groupe d'utilisateur",
 	add_usergroup_modal = "Entrez le groupe d'utilisateur que vous voulez ajouter ci-dessous.",
@@ -55,12 +55,12 @@ BWhitelist.Language = {
 	no_enabled_whitelists = "Il n'y a aucune whitelist d'activée qui soit accessible!",
 	import_from_mayoz = "Importer de Mayoz's Whitelisting System",
 	import_from_nordahl = "Importer de Nordahl's Whitelisting System",
-	import_from_old_bwhitelist = "Importer de l'ancienne BWhitelist",
+	import_from_old_bwhitelist = "Importer de l'ancienne bWhitelist",
 	view = "Voir",
 	no_import = "On dirait qu'on n'a pas peu trouver les fichiers/les fichiers sont corrompus pour l'importation.",
-	import_from_old_bwhitelist_tooltip = "Si nous pouvons trouver des fichiers de l'ancien BWhitelist, ils seront convertis à la nouvelle version.",
-	import_from_mayoz_tooltip = "Si nous pouvons trouver des fichiers de Mayoz's Whitelisting System sur votre serveur, ils seront convertis en fichiers BWhitelist.",
-	import_from_nordahl_tooltip = "Si nous pouvons trouver des fichiers de Nordahl's Whitelisting System sur votre serveur, ils seront convertis en fichiers BWhitelist.",
+	import_from_old_bwhitelist_tooltip = "Si nous pouvons trouver des fichiers de l'ancien bWhitelist, ils seront convertis à la nouvelle version.",
+	import_from_mayoz_tooltip = "Si nous pouvons trouver des fichiers de Mayoz's Whitelisting System sur votre serveur, ils seront convertis en fichiers bWhitelist.",
+	import_from_nordahl_tooltip = "Si nous pouvons trouver des fichiers de Nordahl's Whitelisting System sur votre serveur, ils seront convertis en fichiers bWhitelist.",
 	disable_all_whitelists = "Les listes blanches de tous les jobs seront désactivées. Aucune donnée ne sera supprimée.",
 	enable_all_whitelists = "Les listes blanches de tous les jobs seront activées.",
 	steamprofile = "Profil Steam",
@@ -71,8 +71,8 @@ BWhitelist.Language = {
 	reset_everything = "Tout remettre à zéro",
 	reset_everything_tooltip = "ATTENTION : Ceci supprimera TOUTES les données de whitelist.",
 	go = "Aller",
-	notify_customcheck = "Ce job a un customCheck qui a outrepassé BWhitelist et vous empêche de l'avoir.",
-	customcheck_team = "Cette équipe a un customCheck. Ceci outrepasse BWhitelist.\n\nVeuillez changer \"customCheck\" à \"BWhitelist_customCheck\"\ndans votre fichier de jobs pour que customCheck fonctionne avec BWhitelist.",
+	notify_customcheck = "Ce job a un customCheck qui a outrepassé bWhitelist et vous empêche de l'avoir.",
+	customcheck_team = "Cette équipe a un customCheck. Ceci outrepasse bWhitelist.\n\nVeuillez changer \"customCheck\" à \"bWhitelist_customCheck\"\ndans votre fichier de jobs pour que customCheck fonctionne avec bWhitelist.",
 	removed_from_whitelist = "Vous avez été enlevé de la whitelist pour \"%s\"",
 	added_to_whitelist = "Vous avez été ajouté à la whitelist pour \"%s\"",
 	disable_all_whitelists = "Désactiver tous les whitelists",

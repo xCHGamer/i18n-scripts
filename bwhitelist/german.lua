@@ -1,6 +1,6 @@
 --[[
 
-	BWhitelist German
+	bWhitelist German
 	
 	Contributors:
 	
@@ -9,7 +9,7 @@
 	
 ]]
 
-BWhitelist.Language = {
+bWhitelist.Language = {
 	permission_failure = "Du hast momentan nicht die Befugnis um dies zu tun.",
 	disabled_whitelist = "Die Whitelist für diesen Job ist deaktiviert.",
 	no_whitelist_permission = "Du hast nicht die Berechtigung die Whitelist zu bearbeiten.",
@@ -40,7 +40,7 @@ BWhitelist.Language = {
 	disable_whitelist_tooltip = "Deaktiviere die Whitelist. Spieler können diesen Job kostenlos wählen.",
 	add_to_whitelist_tooltip = "Fügt die SteamID, SteamID64 oder Benutzergruppe zur Whitelist für diesen Beruf hinzu.",
 	remove_from_whitelist_tooltip = "Entfernt die SteamID, SteamID64 oder Benutzergruppe von der Whitelist für diesen Beruf.",
-	in_jobs_file_tooltip = "Du kannst diese Whitelist nicht deaktivieren weil BWhitelist in deinen DarkRP Berufen aktiviert ist.",
+	in_jobs_file_tooltip = "Du kannst diese Whitelist nicht deaktivieren weil bWhitelist in deinen DarkRP Berufen aktiviert ist.",
 	add_steamid = "Füge SteamID/64 hinzu",
 	add_usergroup = "Füge Benutzergruppe hinzu",
 	add_usergroup_modal = "Wähle die Benutzergruppe die du unten zufügen willst.",
@@ -55,12 +55,12 @@ BWhitelist.Language = {
 	no_enabled_whitelists = "Es gibt keine aktivierte Whitelists zu der du Zugriff hast!",
 	import_from_mayoz = "Importiere von Mayoz's Whitelisting System",
 	import_from_nordahl = "Importiere from Nordahl's Whitelisting System",
-	import_from_old_bwhitelist = "Importiere from old BWhitelist",
+	import_from_old_bwhitelist = "Importiere from old bWhitelist",
 	view = "Ansehen",
 	no_import = "Es sieht so aus als ob wir die Datei nicht finden konnten/die erforderlichen Datein die zu importieren sind, sind beschädigt.",
-	import_from_old_bwhitelist_tooltip = "Wenn wir alte BWhitelist Daten auf dem Server finden, übertragen wir sie in die neuen Daten.",
-	import_from_mayoz_tooltip = "Wenn wir alte Mayoz's Whitelisting System's Daten auf dem Server finden, übertragen wir sie in die neuen BWhitelist Daten.",
-	import_from_nordahl_tooltip = "Wenn wir alte Nordahl's Whitelisting System's Daten auf dem Server finden, übertragen wir sie in die neuen BWhitelist Daten.",
+	import_from_old_bwhitelist_tooltip = "Wenn wir alte bWhitelist Daten auf dem Server finden, übertragen wir sie in die neuen Daten.",
+	import_from_mayoz_tooltip = "Wenn wir alte Mayoz's Whitelisting System's Daten auf dem Server finden, übertragen wir sie in die neuen bWhitelist Daten.",
+	import_from_nordahl_tooltip = "Wenn wir alte Nordahl's Whitelisting System's Daten auf dem Server finden, übertragen wir sie in die neuen bWhitelist Daten.",
 	disable_all_whitelists = "Alle Berufe werden ihre Whitelist deaktiviert bekommen. Alle Daten bleiben vorhanden.",
 	enable_all_whitelists = "Alle Berufe werden ihre Whitelist aktiviert bekommen.",
 	steamprofile = "Steam Profil",
@@ -71,8 +71,8 @@ BWhitelist.Language = {
 	reset_everything = "Alles zurücksetzen",
 	reset_everything_tooltip = "ACHTUNG: Dies wird die GESAMMTE Whitelist Datei und aktivierte Whitelist löschen.",
 	go = "Suchen",
-	notify_customcheck = "Der Beruf den du versucht hattest zu wählen hat eine customCheck welche die BWhitelist überschreibt und dich vom Beitritt abhält.",
-	customcheck_team = "Das Team hat eine customCheck. Diese überschreibt die BWhitelist.\n\nBitte änder die  \"customCheck\" to \"BWhitelist_customCheck\"\nin deinen Berufs Datein um deine customCheck für BWhitelist freizugeben.",
+	notify_customcheck = "Der Beruf den du versucht hattest zu wählen hat eine customCheck welche die bWhitelist überschreibt und dich vom Beitritt abhält.",
+	customcheck_team = "Das Team hat eine customCheck. Diese überschreibt die bWhitelist.\n\nBitte änder die  \"customCheck\" to \"bWhitelist_customCheck\"\nin deinen Berufs Datein um deine customCheck für bWhitelist freizugeben.",
 	removed_from_whitelist = "Du wurdest von der Whitelist für \"%s\" entfernt",
 	added_to_whitelist = "Du wurdest für \"%s\" zur Whitelist zugefügt",
 	disable_all_whitelists = "Alle Whitelists deaktivieren",

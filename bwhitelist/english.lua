@@ -1,6 +1,6 @@
 --[[
 
-	BWhitelist English
+	bWhitelist English
 
 	Do not make changes to this file, it's used internally
 	and is not loaded from GitHub.
@@ -38,7 +38,7 @@
 	disable_whitelist_tooltip = "Disables the whitelist. Players can join the job freely.",
 	add_to_whitelist_tooltip = "Adds a SteamID, SteamID64 or usergroup to the whitelist for this job.",
 	remove_from_whitelist_tooltip = "Removes the selected SteamID, SteamID64 or usergroup from the whitelist for this job.",
-	in_jobs_file_tooltip = "You can't disable this whitelist because it is BWhitelist enabled in your DarkRP jobs file.",
+	in_jobs_file_tooltip = "You can't disable this whitelist because it is bWhitelist enabled in your DarkRP jobs file.",
 	add_steamid = "Add SteamID/64",
 	add_usergroup = "Add Usergroup",
 	add_usergroup_modal = "Type the usergroup you want to add below.",
@@ -53,12 +53,12 @@
 	no_enabled_whitelists = "There's no enabled whitelists that you have access to!",
 	import_from_mayoz = "Import from Mayoz's Whitelisting System",
 	import_from_nordahl = "Import from Nordahl's Whitelisting System",
-	import_from_old_bwhitelist = "Import from old BWhitelist",
+	import_from_old_bwhitelist = "Import from old bWhitelist",
 	view = "View",
 	no_import = "It looks like we couldn't find the files/the files are corrupted that are required to import.",
-	import_from_old_bwhitelist_tooltip = "If we can find any of the old BWhitelist files on your server, we'll convert them into the new files.",
-	import_from_mayoz_tooltip = "If we can find any of Mayoz's Whitelisting System's files on your server, we'll convert them into BWhitelist files.",
-	import_from_nordahl_tooltip = "If we can find any of Nordahl's Whitelisting System's files on your server, we'll convert them into BWhitelist files.",
+	import_from_old_bwhitelist_tooltip = "If we can find any of the old bWhitelist files on your server, we'll convert them into the new files.",
+	import_from_mayoz_tooltip = "If we can find any of Mayoz's Whitelisting System's files on your server, we'll convert them into bWhitelist files.",
+	import_from_nordahl_tooltip = "If we can find any of Nordahl's Whitelisting System's files on your server, we'll convert them into bWhitelist files.",
 	disable_all_whitelists = "All jobs will have their whitelists disabled. All data will stay.",
 	enable_all_whitelists = "All jobs will have their whitelists enabled.",
 	steamprofile = "Steam Profile",
@@ -69,7 +69,7 @@
 	reset_everything = "Reset everything",
 	reset_everything_tooltip = "WARNING: This will delete ALL whitelist data and enabled whitelists.",
 	go = "Go",
-	customcheck_team = "This team has a customCheck on it. This overrides BWhitelist.\n\nPlease change \"customCheck\" to \"BWhitelist_customCheck\"\nin your jobs file for your customCheck to work with BWhitelist.",
+	customcheck_team = "This team has a customCheck on it. This overrides bWhitelist.\n\nPlease change \"customCheck\" to \"bWhitelist_customCheck\"\nin your jobs file for your customCheck to work with bWhitelist.",
 	removed_from_whitelist = "You were removed from the whitelist for \"%s\"",
 	added_to_whitelist = "You were added to the whitelist for \"%s\"",
 	disable_all_whitelists = "Disable all whitelists",
