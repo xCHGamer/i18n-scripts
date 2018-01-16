@@ -2,6 +2,11 @@
 
 	bLogs Polish
 
+	Contributors:
+
+	Anonymous
+	Rayek - STEAM_0:0:109063991
+
 ]]
 
 bLogs.Language = {
