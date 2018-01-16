@@ -10,14 +10,17 @@
 ]]
 
 bLogs.Language = {
-	
-	permission_failure = "Nie posiadasz zezwolenia.",
+
+	-- First column in the logs, shows the date/time of the log
+	when = "Kiedy",
+
+	permission_failure = "Nie posiadasz pozwolenia.",
 
 	-- When the user is an admin, this will be in the window title.
 	admin_mode = "Tryb Admina",
 
 	-- The button to view all logs stored.
-	all_logs = "Wszystkie rejestry",
+	all_logs = "Wszystkie logi",
 
 	-- The button to view all players stored in bLogs.
 	all_players = "Wszyscy gracze",
@@ -26,7 +29,7 @@ bLogs.Language = {
 	players = "Gracze",
 
 	-- The message shown to the player when they first open bLogs.
-	getting_data = "Pobieranie danych, prosze czekac...",
+	getting_data = "Pobieranie danych, proszę czekać...",
 
 	-- The message shown when there's no logs to show.
 	no_data = "Brak danych!",
@@ -36,47 +39,47 @@ bLogs.Language = {
 	search = "Wyszukaj",
 
 	-- The button to open the SteamID Finder (steamid.venner.io)
-	steamid_finder = "Wyszukiwarka SteamID",
+	steamid_finder = "SteamID Finder",
 
 	-- The message in the players panel instructing the user to select something
 	-- to view players.
-	select_something = "Wybierz cokolwiek",
+	select_something = "Wybierz coś",
 
 	-- The button at the pagination that allows you to jump to a specific page.
-	jump = "Przeskocz",
+	jump = "Skocz",
 
 	-- The title of the window that pops up when you click "Jump"
-	jump_to_page = "Przeskocz do strony...",
+	jump_to_page = "Skocz do strony...",
 
 	-- The text in that window instructing the user.
 	-- %d is the number of pages that exist
-	type_page = "Wpisz numer stronz (jest %d stron)",
+	type_page = "Wpisz numer strony (jest %d stron)",
 
 	cancel = "Anuluj",
 
-	error_over_pagenum = "Ta strona rejestrow nie istnieje",
-	error_not_num = "To nie jest numer",
+	error_over_pagenum = "Ta strona logów nie istnieje",
+	error_not_num = "To nie jest liczba",
 
-	error = "Blad",
+	error = "Błąd",
 
 	-- Left click to copy [player] name
-	involved_tooltip = "Kliknij prawym aby wyswietlic opcje",
+	involved_tooltip = "Wciśnij PPM do ustawień",
 
 	-- View logs that that this player is involved in
-	view_player_logs = "Sprawdz Logi Gracza",
+	view_player_logs = "Zobacz logi gracza",
 
 	-- Copy [something] [to clipboard]
 	copy = "Kopiuj %s",
 
 	profile = "Profil Steam",
 
-	left_click_to_copy = "Klikij lewym aby skopiowac",
+	left_click_to_copy = "LPM by skopiować",
 
-	modules = "Moduly",
+	modules = "Moduły",
 
-	custom = "Wlasne",
+	custom = "Custom",
 
-	enter_a_steamid = "Wprowadz SteamID...",
+	enter_a_steamid = "Wpisz SteamID...",
 
 	error_not_steamid = "To nie jest SteamID.",
 
@@ -85,38 +88,70 @@ bLogs.Language = {
 	contains = "I zawiera...",
 
 	-- "Colour Mode" is whether or not the logs are shown with coloured text.
-	colour_mode = "Tryb Koloru",
+	colour_mode = "Tryb kolorowy",
 
-	jump_to_date = "Przeskocz do Daty",
+	jump_to_date = "Skocz do daty",
 
-	jump_to_date_tooltip = "Kliknij prawym aby przeskoczyc do daty/czasu",
+	jump_to_date_tooltip = "PPM by skoczyć do daty/czasu",
 
-	type_date = "Wpisz date. Wykorzystaj format: DD/MM/YYYY (%s/%s/%s)",
+	type_date = "Wpisz datę. Musi być w formacie: DD/MM/YYYY (%s/%s/%s)",
 
-	error_not_date = "To nie byla poprawna data. Wykorzystaj format: DD/MM/YYYY (%s/%s/%s)",
+	error_not_date = "To nie jest prawidłowa data. Musi być w formacie: DD/MM/YYYY (%s/%s/%s)",
 
-	type_time = "Wprowadz stempel czasowy. Musi byc w tym formacie: HH:MM (%s:%s) (24 godziny)\nZostaw puste aby zignorowac.",
+	type_time = "Wprowadź stempel czasowy. Musi być w formacie: HH:MM (%s:%s) (24 hour)\nZostaw puste, by zignorować czas.",
 
-	error_not_time = "To nie byl prawidlowy stempel czasowy. Wykorzystaj format: HH:MM (%s:%s) (24 godziny)",
+	error_not_time = "To nie jest prawidłowy stempel czasowy. Musi być w formacie: HH:MM (%s:%s) (24h)",
 
 	archive = "Archiwum",
 
 	searching = "Szukanie",
 
-	search_archive = "Szukaj Archiwum",
+	search_archive = "Przeszukaj archiwum",
 
-	search_archive_warning = "Przeszukiwanie archiwum moze spowolnic serwer. Wykorzystuj madrze.",
+	search_archive_warning = "Przeszukiwanie archiwum może spodowodawać lagi, jeśli baza jest na localhost. Używać tylko w potrzebie.",
 
 	logging = "Rejestrowanie",
 
 	save = "Zapisz",
 
-	enabled = "Wlaczone",
+	enabled = "Włączone",
 
-	disabled = "Wylaczone",
+	disabled = "Wyłaczone",
 
-	disable = "Wylacz",
+	disable = "Wyłącz",
 
-	enable = "Wlacz",
-	
+	enable = "Włącz",
+
+	give = "Daj",
+
+	take = "Zabierz",
+
+	new_steamid = "Nowe SteamID",
+
+	new_usergroup = "Nowa grupa graczy",
+
+	usergroup_name = "Nazwa grupy gracza",
+
+	-- "Delete this entry from permissions"
+	delete_entry = "Usuń pozycję",
+
+	usergroup_exists = "Ta grupa już istnieje w uprawnieniach! Czy jest CAMI usergroup na to? Użyj jej jeśli tak.",
+
+	steamid_exists = "To SteamID już istnieje w uprawnieniach!",
+
+	loading = "Ładowanie...",
+
+	support = "Wsparcie",
+
+	-- "Player Format" is a setting that contains everything that will be included
+	-- in a log that references a player. For example, it will show the player's job,
+	-- health, armour, etc. depending on the settings.
+	player_format = "Player Format",
+
+	permissions = "Uprawnienia",
+
+	general_settings = "Ustawienia główne",
+
+	operations = "Operacje",
+
 }
