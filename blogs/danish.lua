@@ -1,12 +1,14 @@
 --[[
-	bLogs Danish
-	
-Contribrutors:
 
-Måge - STEAM_0:1:82373951
+	bLogs Danish
+
+	Contributors:
+
+	Måge - STEAM_0:1:82373951
+  
 ]]
 
-{
+bLogs.Language = {
 
 	-- First column in the logs, shows the date/time of the log
 	when = "Hvornår",
