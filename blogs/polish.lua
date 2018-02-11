@@ -14,7 +14,7 @@ bLogs.Language = {
 	-- First column in the logs, shows the date/time of the log
 	when = "Kiedy",
 
-	permission_failure = "Nie posiadasz pozwolenia.",
+	permission_failure = "Nie posiadasz odpowiednich uprawnień.",
 
 	-- When the user is an admin, this will be in the window title.
 	admin_mode = "Tryb Admina",
