@@ -8,11 +8,12 @@
 
 ]]
 
-bLogs.Language = {
+{
+
 	-- First column in the logs, shows the date/time of the log
 	when = "Sonra",
 
-	permission_failure = "Bunu Yapmak İçin Yeterli İzinlere Sahip Değilsin!",
+	permission_failure = "Bunu Yapmak İçin İznin Yok.",
 
 	-- When the user is an admin, this will be in the window title.
 	admin_mode = "Yetkili Modu",
@@ -27,16 +28,14 @@ bLogs.Language = {
 	players = "Oyuncular",
 
 	-- The message shown to the player when they first open bLogs.
-	getting_data = "Bilgiler Alınıyor. Lütfen Bekleyin...",
+	getting_data = "Bilgiler Alınıyor, Lütfen Bekleyin...",
 
 	-- The message shown when there's no logs to show.
 	no_data = "Bilgi Yok!",
 
 	advanced_search = "Gelişmiş Arama",
-
 	quick_search = "Hızlı Arama",
-
-	search = "Arama",
+	search = "Ara",
 
 	-- The button to open the SteamID Finder (steamid.venner.io)
 	steamid_finder = "SteamID Bulucu",
@@ -46,25 +45,24 @@ bLogs.Language = {
 	select_something = "Birşey Seç",
 
 	-- The button at the pagination that allows you to jump to a specific page.
-	jump = "Geç",
+	jump = "Git",
 
 	-- The title of the window that pops up when you click "Jump"
-	jump_to_page = "Diğer Sayfaya Geç...",
+	jump_to_page = "Sayfaya Git...",
 
 	-- The text in that window instructing the user.
 	-- %d is the number of pages that exist
-	type_page = "Sayfa Numarası Yaz (%d Sayfa Var.)",
+	type_page = "Sayfa Numarası Yazın (Şu Anda %d Sayfa Bulunmaktadır)",
 
 	cancel = "İptal",
 
-	error_over_pagenum = "Bu Sayfada Loglar Bulunamadı!",
-
-	error_not_num = "Bu Bir Numara Değil!",
+	error_over_pagenum = "Bu Sayfada Log'lar Yok!",
+	error_not_num = "Bu Bir Rakam Değil",
 
 	error = "Hata",
 
 	-- Left click to copy [player] name
-	involved_tooltip = "Ayarları Görmek İçin Sağ Tıkla",
+	involved_tooltip = "Ayarları Görmek İçin Sağ Tıklayın",
 
 	-- View logs that that this player is involved in
 	view_player_logs = "Oyuncu Loglarını Görüntüle",
@@ -74,7 +72,7 @@ bLogs.Language = {
 
 	profile = "Steam Profili",
 
-	left_click_to_copy = "Kopyalamak İçin Sol İle Tıkla",
+	left_click_to_copy = "Sol Tık İle Kopyala",
 
 	modules = "Modüller",
 
@@ -82,36 +80,36 @@ bLogs.Language = {
 
 	enter_a_steamid = "SteamID Gir...",
 
-	error_not_steamid = "Bu Bir SteamID Değil!",
+	error_not_steamid = " Bu SteamID Değil!",
 
 	-- Used in the advanced search box
 	-- "Does the log contain this text?"
 	contains = "Ve İçindekiler...",
 
 	-- "Colour Mode" is whether or not the logs are shown with coloured text.
-	colour_mode = "Renk Modu",
+	colour_mode = "Renkli Mod",
 
 	jump_to_date = "Tarihe Git",
 
-	jump_to_date_tooltip = "O Zamana Gitmek İçin Sol Tıkla",
+	jump_to_date_tooltip = "Sol Tık İle Tarih/Zaman'a Git.",
 
-	type_date = "Tarih Gir. Formatı Böyle Olmalıdır: GG/AA/YYYY (%s/%s/%s)",
+	type_date = "Tarih Girin. Formatı Böyle Olmalıdır: GG/AA/YYYY (%s/%s/%s)",
 
-	error_not_date = "Girdiğiniz Tarih Doğru Değil. Formatı Böyle Olmalıdır: GG/AA/YYYY (%s/%s/%s)",
+	error_not_date = "Tarihi Doğru Girmediniz. Formatı Böyle Olmalıdır: GG/AA/YYYY (%s/%s/%s)",
 
-	type_time = "Saati Girin. Formatı Böyle Olmalıdır: SS:DD (%s:%s) (24 hour)\nSaati Girmek İstemiyorsanız Boşluk Bırakın.",
+	type_time = "Vakti Girin.  Formatı Böyle Olmalıdır: SS:DD (%s:%s) (24 hour)\nZamanı Yazmak İstemiyorsanız Boş Bırakın.",
 
-	error_not_time = "Doğru Saat Değil. Formatı Böyle Olmalıdır: SS:DD (%s:%s) (24 hour)",
+	error_not_time = "Vakti Doğru Girmediniz.  Formatı Böyle Olmalıdır: SS:DD (%s:%s) (24 hour)",
 
 	archive = "Arşiv",
 
-	searching = "Aranıyor...",
+	searching = "Aranıyor",
 
 	search_archive = "Arşiv Ara",
 
-	search_archive_warning = "Arşivde Birşey Ararken Sunucuda Lag Olmaktadır. Lütfen Sadece İhtiyacınız Olanları Arayın.",
+	search_archive_warning = "Arşiv Ararken Sunucuda Takılma Olmaktadır. Lütfen İhtiyacınız Olan Arşivi Arayın.",
 
-	logging = "Logging",
+	logging = "Log'lar Giriliyor...",
 
 	save = "Kaydet",
 
@@ -136,9 +134,9 @@ bLogs.Language = {
 	-- "Delete this entry from permissions"
 	delete_entry = "Girdiyi Sil",
 
-	usergroup_exists = "Bu Kullanıcı Grubu Zaten Bu İzinlere Sahip.",
+	usergroup_exists = "Bu Kullanıcı Grubu Zaten Bu İzinlere Sahip!",
 
-	steamid_exists = "Bu SteamID Zaten Bu İzinlere Sahip.",
+	steamid_exists = "Bu SteamID Zaten Bu İzinlere Sahip!",
 
 	loading = "Yükleniyor...",
 
@@ -154,4 +152,5 @@ bLogs.Language = {
 	general_settings = "Genel Ayarlar",
 
 	operations = "Operation'lar",
+
 }
