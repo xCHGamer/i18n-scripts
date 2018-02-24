@@ -1,9 +1,12 @@
 --[[ 
+
 	bWhitelist Croatian.
 
 	Contributors: 
-	Kyousei		-	STEAM_0:0:119269509
-]]--
+
+	Kyousei - STEAM_0:0:119269509
+
+]]
 
 bWhitelist.Language = {
 	permission_failure = "Vi trenutačno nemate dozvolu da uradite ovo.",
