@@ -1,6 +1,6 @@
 --[[ 
 
-	bWhitelist Croatian.
+	bWhitelist Croatian
 
 	Contributors: 
 
