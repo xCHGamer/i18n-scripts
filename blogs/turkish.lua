@@ -97,9 +97,9 @@
 
 	error_not_date = "Tarihi Doğru Girmediniz. Formatı Böyle Olmalıdır: GG/AA/YYYY (%s/%s/%s)",
 
-	type_time = "Vakti Girin.  Formatı Böyle Olmalıdır: SS:DD (%s:%s) (24 hour)\nZamanı Yazmak İstemiyorsanız Boş Bırakın.",
+	type_time = "Vakti Girin.  Formatı Böyle Olmalıdır: SS:DD (%s:%s) (24 Saat)\nZamanı Yazmak İstemiyorsanız Boş Bırakın.",
 
-	error_not_time = "Vakti Doğru Girmediniz.  Formatı Böyle Olmalıdır: SS:DD (%s:%s) (24 hour)",
+	error_not_time = "Vakti Doğru Girmediniz.  Formatı Böyle Olmalıdır: SS:DD (%s:%s) (24 Saat)",
 
 	archive = "Arşiv",
 
