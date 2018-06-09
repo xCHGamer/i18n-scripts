@@ -6,9 +6,9 @@
 
 	바른각 - STEAM_0:1:101627612
 
---]]
+]]
 
-{
+bLogs.Language = {
 
 	-- First column in the logs, shows the date/time of the log
 	when = "시각",
